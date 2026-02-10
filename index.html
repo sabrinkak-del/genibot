@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ג'ני בוט - העוזרת האישית שלך</title>
+    
+    <!-- SEO and Open Graph Metadata -->
+    <meta name="description" content="צ'אט בוט חכם למציאת מקומות, מסעדות ומידע מקומי בזמן אמת עם עיצוב מרהיב." />
+    <meta property="og:title" content="ג'ני בוט - עוזרת אישית חכמה" />
+    <meta property="og:description" content="צ'אט בוט חכם למציאת מקומות, מסעדות ומידע מקומי בזמן אמת." />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#202124" />
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#4285F4',
+              secondary: '#34A853',
+              accent: '#EA4335',
+              dark: '#202124',
+              surface: '#303134',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            animation: {
+              'float': 'float 15s linear infinite',
+            },
+            keyframes: {
+              float: {
+                "0%": {
+                  transform: "translateY(0) translateX(0)",
+                  opacity: "0",
+                },
+                "10%": {
+                  opacity: "0.4",
+                },
+                "90%": {
+                  opacity: "0.4",
+                },
+                "100%": {
+                  transform: "translateY(-120vh) translateX(20px)",
+                  opacity: "0",
+                },
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #202124;
+        color: #e8eaed;
+      }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #303134;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #5f6368;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #9aa0a6;
+      }
+      
+      .glass-effect {
+        background: rgba(48, 49, 52, 0.7);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "@google/gen

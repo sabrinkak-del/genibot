@@ -1,0 +1,7 @@
+{
+  "name": "ג'ני בוט",
+  "description": "Explore the world with Gemini 2.5 and Google Maps Grounding. Find places, restaurants, and local gems with real-time location data.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
